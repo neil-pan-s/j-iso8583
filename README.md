@@ -16,44 +16,44 @@ __&#991; 委托macGenerate和headerDecorate接口:__
 __&#10049; 完整的ISO8583接口支持:__
 提供一套完整的JS操作ISO8583报文接口
 
-### Attributes
+# Attributes
 
 ```js
-	[
-		{ "bitNo": 2, "dataType": "N", "lengthType": "LLVAR", "maxLength": 19, "alignment": "LEFT", "padding": "F", "describe": "" },
-		{ "bitNo": 3, "dataType": "N", "lengthType": "FIX", "maxLength": 6, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 4, "dataType": "N", "lengthType": "FIX", "maxLength": 12, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 11, "dataType": "N", "lengthType": "FIX", "maxLength": 6, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 12, "dataType": "N", "lengthType": "FIX", "maxLength": 6, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 13, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 14, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 15, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 22, "dataType": "N", "lengthType": "FIX", "maxLength": 3, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 23, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 25, "dataType": "N", "lengthType": "FIX", "maxLength": 2, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 26, "dataType": "N", "lengthType": "FIX", "maxLength": 2, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 32, "dataType": "N", "lengthType": "LLVAR", "maxLength": 11, "alignment": "RIGHT", "padding": "0", "describe": "" },
-		{ "bitNo": 35, "dataType": "Z", "lengthType": "LLVAR", "maxLength": 37, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 36, "dataType": "Z", "lengthType": "LLLVAR", "maxLength": 104, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 37, "dataType": "ANS", "lengthType": "FIX", "maxLength": 12, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 38, "dataType": "ANS", "lengthType": "FIX", "maxLength": 6, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 39, "dataType": "ANS", "lengthType": "FIX", "maxLength": 2, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 41, "dataType": "ANS", "lengthType": "FIX", "maxLength": 8, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 42, "dataType": "ANS", "lengthType": "FIX", "maxLength": 15, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 44, "dataType": "ANS", "lengthType": "LLVAR", "maxLength": 25, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 48, "dataType": "N", "lengthType": "LLLVAR", "maxLength": 322, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 49, "dataType": "ANS", "lengthType": "FIX", "maxLength": 3, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 52, "dataType": "B", "lengthType": "FIX", "maxLength": 8, "alignment": "LEFT", "padding": null, "describe": "" },
-		{ "bitNo": 53, "dataType": "N", "lengthType": "FIX", "maxLength": 16, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 54, "dataType": "ANS", "lengthType": "LLLVAR", "maxLength": 20, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 55, "dataType": "B", "lengthType": "LLLVAR", "maxLength": 700, "alignment": "LEFT", "padding": null, "describe": "" },
-		{ "bitNo": 58, "dataType": "B", "lengthType": "LLLVAR", "maxLength": 100, "alignment": "LEFT", "padding": null, "describe": "" },
-		{ "bitNo": 60, "dataType": "N", "lengthType": "LLLVAR", "maxLength": 17, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 61, "dataType": "N", "lengthType": "LLLVAR", "maxLength": 29, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 62, "dataType": "B", "lengthType": "LLLVAR", "maxLength": 999, "alignment": "LEFT", "padding": "0", "describe": "" },
-		{ "bitNo": 63, "dataType": "ANS", "lengthType": "LLLVAR", "maxLength": 163, "alignment": "LEFT", "padding": " ", "describe": "" },
-		{ "bitNo": 64, "dataType": "B", "lengthType": "FIX", "maxLength": 8, "alignment": "LEFT", "padding": "", "describe": "" }
-	]
+[
+	{ "bitNo": 2, "dataType": "N", "lengthType": "LLVAR", "maxLength": 19, "alignment": "LEFT", "padding": "F", "describe": "" },
+	{ "bitNo": 3, "dataType": "N", "lengthType": "FIX", "maxLength": 6, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 4, "dataType": "N", "lengthType": "FIX", "maxLength": 12, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 11, "dataType": "N", "lengthType": "FIX", "maxLength": 6, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 12, "dataType": "N", "lengthType": "FIX", "maxLength": 6, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 13, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 14, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 15, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 22, "dataType": "N", "lengthType": "FIX", "maxLength": 3, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 23, "dataType": "N", "lengthType": "FIX", "maxLength": 4, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 25, "dataType": "N", "lengthType": "FIX", "maxLength": 2, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 26, "dataType": "N", "lengthType": "FIX", "maxLength": 2, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 32, "dataType": "N", "lengthType": "LLVAR", "maxLength": 11, "alignment": "RIGHT", "padding": "0", "describe": "" },
+	{ "bitNo": 35, "dataType": "Z", "lengthType": "LLVAR", "maxLength": 37, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 36, "dataType": "Z", "lengthType": "LLLVAR", "maxLength": 104, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 37, "dataType": "ANS", "lengthType": "FIX", "maxLength": 12, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 38, "dataType": "ANS", "lengthType": "FIX", "maxLength": 6, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 39, "dataType": "ANS", "lengthType": "FIX", "maxLength": 2, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 41, "dataType": "ANS", "lengthType": "FIX", "maxLength": 8, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 42, "dataType": "ANS", "lengthType": "FIX", "maxLength": 15, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 44, "dataType": "ANS", "lengthType": "LLVAR", "maxLength": 25, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 48, "dataType": "N", "lengthType": "LLLVAR", "maxLength": 322, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 49, "dataType": "ANS", "lengthType": "FIX", "maxLength": 3, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 52, "dataType": "B", "lengthType": "FIX", "maxLength": 8, "alignment": "LEFT", "padding": null, "describe": "" },
+	{ "bitNo": 53, "dataType": "N", "lengthType": "FIX", "maxLength": 16, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 54, "dataType": "ANS", "lengthType": "LLLVAR", "maxLength": 20, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 55, "dataType": "B", "lengthType": "LLLVAR", "maxLength": 700, "alignment": "LEFT", "padding": null, "describe": "" },
+	{ "bitNo": 58, "dataType": "B", "lengthType": "LLLVAR", "maxLength": 100, "alignment": "LEFT", "padding": null, "describe": "" },
+	{ "bitNo": 60, "dataType": "N", "lengthType": "LLLVAR", "maxLength": 17, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 61, "dataType": "N", "lengthType": "LLLVAR", "maxLength": 29, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 62, "dataType": "B", "lengthType": "LLLVAR", "maxLength": 999, "alignment": "LEFT", "padding": "0", "describe": "" },
+	{ "bitNo": 63, "dataType": "ANS", "lengthType": "LLLVAR", "maxLength": 163, "alignment": "LEFT", "padding": " ", "describe": "" },
+	{ "bitNo": 64, "dataType": "B", "lengthType": "FIX", "maxLength": 8, "alignment": "LEFT", "padding": "", "describe": "" }
+]
 	
 ```
 
@@ -62,79 +62,79 @@ __&#10049; 完整的ISO8583接口支持:__
 ## macGenerate
 
 ```js
-	// iso8583 delegate function, implement as x9.9/PBOC/ECB/CBC
-    var macGenerate = {
-        /**
-         * generate mac
-         *
-         * @param {String} sPacket 8583 packet
-         * @return {String} 8 bytes mac
-         */
-        generate: function(sPacket) {
+// iso8583 delegate function, implement as x9.9/PBOC/ECB/CBC
+var macGenerate = {
+	/**
+	 * generate mac
+	 *
+	 * @param {String} sPacket 8583 packet
+	 * @return {String} 8 bytes mac
+	 */
+	generate: function(sPacket) {
 
-            // TODO: 
-            // call device calc mac 
-            // ... 
+	    // TODO: 
+	    // call device calc mac 
+	    // ... 
 
-            // mock	
-            return "4235333641323341";
-        },
-        /**
-         * verify mac
-         *
-         * @param {String} sPacket 8583 packet
-         * @param {String} sChkMac check mac
-         * @return {Boolean} true/false
-         */
-        verify: function(sPacket, sChkMac) {
+	    // mock	
+	    return "4235333641323341";
+	},
+	/**
+	 * verify mac
+	 *
+	 * @param {String} sPacket 8583 packet
+	 * @param {String} sChkMac check mac
+	 * @return {Boolean} true/false
+	 */
+	verify: function(sPacket, sChkMac) {
 
-            // TODO: 
-            // call device calc mac then compare
-            // ... 
+	    // TODO: 
+	    // call device calc mac then compare
+	    // ... 
 
-            // mock
-            return true;
-        }
-    };
+	    // mock
+	    return true;
+	}
+};
 ```
 
 ## headerDecorate
 
 ```js
-	// iso8583 delegate function, implement handle TPDU/Message Header
-    var headerDecorate = {
-        /**
-         * Add TPDU + Message Header before Packet
-         *
-         * @param {String} sPacket 8583 packet whitout 2 bytes length
-         */
-        decorate: function(sPacket) {
+// iso8583 delegate function, implement handle TPDU/Message Header
+var headerDecorate = {
+	/**
+	 * Add TPDU + Message Header before Packet
+	 *
+	 * @param {String} sPacket 8583 packet whitout 2 bytes length
+	 */
+	decorate: function(sPacket) {
 
-            var sTpdu = "6000030000";
-            var sHeader = "603100011001";
+	    var sTpdu = "6000030000";
+	    var sHeader = "603100011001";
 
-            return sTpdu + sHeader + sPacket;
-        },
-        /**
-         * Remove TPDU + Message Header before Packet
-         * 
-         * @param {String} sPacket 8583 packet whitout 2 bytes length
-         * @param {Function} cb Message Header handler
-         */
-        recover: function(sPacket, cb) {
+	    return sTpdu + sHeader + sPacket;
+	},
+	/**
+	 * Remove TPDU + Message Header before Packet
+	 * 
+	 * @param {String} sPacket 8583 packet whitout 2 bytes length
+	 * @param {Function} cb Message Header handler
+	 */
+	recover: function(sPacket, cb) {
 
-            var sTpdu = sPacket.slice(0, 10);
-            var sHeader = sPacket.slice(10, 12);
+	    var sTpdu = sPacket.slice(0, 10);
+	    var sHeader = sPacket.slice(10, 12);
 
-            //TODO: TPDU verify
-            // ...
+	    //TODO: TPDU verify
+	    // ...
 
-            //TODO: Message Header handle
-            cb && cb(sHeader);
+	    //TODO: Message Header handle
+	    cb && cb(sHeader);
 
-            return sPacket.slice(22);
-        }
-    };
+	    return sPacket.slice(22);
+	}
+};
 ```
 
 # Examples
