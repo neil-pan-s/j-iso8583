@@ -1,0 +1,22 @@
+{
+    "name": "J-ISO8583",
+    "description": "Javascript ISO8583 Support",
+    "version": "1.0.0",
+    "keywords": [
+        "iso8583",
+        "pos",
+        "pboc",
+        "emv",
+        "bank"
+    ],
+    "homepage": "http://www.ichanging.org",
+    "author": "Changing",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/changingp/j-iso8583.git"
+    },
+    "bugs": {
+        "url": "https://github.com/changingp/j-iso8583/issues"
+    },
+    "license": "MIT"
+}
