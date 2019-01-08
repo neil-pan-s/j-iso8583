@@ -1,6 +1,6 @@
 # J-ISO8583
 
-ISO8583 Library, for POS Developer. Jacascript & Typescript Supported!
+ISO8583 Library, for POS Developer. Javascript & Typescript Supported!
 
 ## Installation
 
