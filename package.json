@@ -1,7 +1,21 @@
 {
     "name": "j-iso8583",
-    "description": "Javascript ISO8583 Support",
-    "version": "1.0.0",
+    "description": "Javascript ISO8583 Library",
+    "version": "2.0.0",
+    "main": "dist/j-iso8583.js",
+    "typings": "types/index.d.ts",
+    "scripts": {
+        "build": "webpack --config ./build/prod.config.js",
+        "dev": "webpack --config ./build/dev.config.js",
+        "publish": "npm run build && sh ./publish.sh",
+        "test": "karma start test/karma.conf.js"
+    },
+    "files": [
+        "src",
+        "example",
+        "dist/*.js",
+        "types/*.d.ts"
+    ],
     "keywords": [
         "iso8583",
         "pos",
@@ -9,14 +23,45 @@
         "emv",
         "bank"
     ],
-    "homepage": "http://www.ichanging.org",
-    "author": "changingp",
+    "homepage": "http://neil-pan.com",
+    "author": "Neil Pan",
     "repository": {
         "type": "git",
-        "url": "https://github.com/changingp/j-iso8583.git"
+        "url": "https://github.com/neil-pan-s/j-iso8583.git"
     },
     "bugs": {
-        "url": "https://github.com/changingp/j-iso8583/issues"
+        "url": "https://github.com/neil-pan-s/j-iso8583/issues"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "@babel/polyfill": "^7.2.5",
+        "@babel/runtime": "^7.2.0",
+        "regenerator-runtime": "^0.13.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/plugin-transform-runtime": "^7.2.0",
+        "@babel/preset-env": "^7.2.3",
+        "@types/webpack-env": "^1.13.6",
+        "babel-loader": "^8.0.5",
+        "chai": "^4.2.0",
+        "karma": "^3.1.4",
+        "karma-mocha": "^1.3.0",
+        "karma-phantomjs-launcher": "^1.0.4",
+        "karma-phantomjs-shim": "^1.5.0",
+        "karma-sinon-chai": "^2.0.2",
+        "karma-sourcemap-loader": "^0.3.7",
+        "karma-webpack": "^3.0.5",
+        "mocha": "^5.2.0",
+        "mocha-webpack": "^1.1.0",
+        "phantomjs": "^2.1.7",
+        "phantomjs-prebuilt": "^2.1.16",
+        "sinon": "^7.2.2",
+        "sinon-chai": "^3.3.0",
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.2.2",
+        "webpack": "^4.28.3",
+        "webpack-cli": "^3.2.0"
+    }
 }

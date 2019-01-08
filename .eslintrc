@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "TIMESTAMP": false,
+    "VERSION": false
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-console": 0,
+    "no-bitwise": 0
+  },
+  "parserOptions": {
+    "parser": "typescript-eslint-parser"
+  }
+}
